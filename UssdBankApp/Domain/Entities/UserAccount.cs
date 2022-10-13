@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UssdBankApp.Domain.Entities
+namespace AtmApp.Domain.Entities
 {
     public class UserAccount
     {

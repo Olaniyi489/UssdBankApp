@@ -1,11 +1,11 @@
-﻿using BankOperationModel.Domain.Enums;
+﻿using UssdBankApp.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankOperationModel.Domain.Entities
+namespace UssdBankApp.Domain.Entities
 {
      public class Transaction
     {

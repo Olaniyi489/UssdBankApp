@@ -9,8 +9,14 @@ using System.Threading.Tasks;
 namespace UssdBankApp.UI
 {
     public static class Utilities
-    {
+    {   
+        private static long tranId;
         private static CultureInfo culture = new CultureInfo("IG-US");
+
+        public static long GetTransactionId()
+        {
+            return ++tranId;
+        }
         public static string GetSecretInput(string prompt)
         {
             bool isPrompt = true;
@@ -23,6 +29,7 @@ namespace UssdBankApp.UI
                 if (isPrompt)
                     Console.WriteLine(prompt);
                 isPrompt = false;
+
                 ConsoleKeyInfo inputKey = Console.ReadKey(true);
 
                 if (inputKey.Key == ConsoleKey.Enter)
@@ -34,8 +41,8 @@ namespace UssdBankApp.UI
                     else
                     {
                         PrintMessage("\nPlease enter 6 digits.", false);
-                        isPrompt = true;
                         input.Clear();
+                        isPrompt = true;
                         continue;
                         
                     }
@@ -70,7 +77,7 @@ namespace UssdBankApp.UI
                 Console.WriteLine(msg);
                 //Console.ResetColor();
                  favColor();
-                // PressEnterContinue();
+                PressEnterContinue();
 
             }
             public static string GetUserInput(string prompt)

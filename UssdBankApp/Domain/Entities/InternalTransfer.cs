@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BankOperationModel.Domain.Entities
+namespace UssdBankApp.Domain.Entities
 {
    public class InternalTransfer
     {
