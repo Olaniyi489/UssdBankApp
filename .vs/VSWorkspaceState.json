@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\UssdBankApp",
+    "\\UssdBankApp\\Domain",
+    "\\UssdBankApp\\Domain\\Interfaces",
+    "\\UssdBankApp\\MainApp",
+    "\\UssdBankApp\\UI"
   ],
+  "SelectedNode": "\\UssdBankApp\\MainApp\\AtmApp.cs",
   "PreviewInSolutionExplorer": false
 }

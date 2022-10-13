@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Decagon\\Desktop\\Decagon Practices\\UssdBankApp\\UssdBankApp\\UssdBankApp.csproj": {}
+    "C:\\Users\\Decagon\\Desktop\\Decagon Projects\\Week3-Atm\\UssdBankApp\\UssdBankApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Decagon\\Desktop\\Decagon Practices\\UssdBankApp\\UssdBankApp\\UssdBankApp.csproj": {
+    "C:\\Users\\Decagon\\Desktop\\Decagon Projects\\Week3-Atm\\UssdBankApp\\UssdBankApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\Decagon Practices\\UssdBankApp\\UssdBankApp\\UssdBankApp.csproj",
+        "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\Decagon Projects\\Week3-Atm\\UssdBankApp\\UssdBankApp.csproj",
         "projectName": "UssdBankApp",
-        "projectPath": "C:\\Users\\Decagon\\Desktop\\Decagon Practices\\UssdBankApp\\UssdBankApp\\UssdBankApp.csproj",
+        "projectPath": "C:\\Users\\Decagon\\Desktop\\Decagon Projects\\Week3-Atm\\UssdBankApp\\UssdBankApp.csproj",
         "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Decagon\\Desktop\\Decagon Practices\\UssdBankApp\\UssdBankApp\\obj\\",
+        "outputPath": "C:\\Users\\Decagon\\Desktop\\Decagon Projects\\Week3-Atm\\UssdBankApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
